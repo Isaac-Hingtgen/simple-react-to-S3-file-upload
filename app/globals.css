@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div {
+  padding-bottom: 5px;
+}
+
+input[type=file]::file-selector-button, input[type=text], input[type=submit] {
+  border: .01px solid #ffffff;
+  padding: .05em .4em;
+  border-radius: .2em;
+  background-color: black;
+  color: white;
+  width: fit-content;
+}
+
+
+
+
+
